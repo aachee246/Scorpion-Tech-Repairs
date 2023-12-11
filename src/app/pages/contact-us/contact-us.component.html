@@ -1,0 +1,32 @@
+<!-- contact-us.component.html -->
+
+<app-home-banner></app-home-banner>
+<app-nav-bar></app-nav-bar>
+
+<div class="flex items-center justify-center mt-16 mb-8">
+  <form class="w-2/3 max-w-screen-md p-12 mb-16 mx-auto">
+    <h2 class="text-3xl text-white mb-4 text-center pb-10">Contact Us</h2>
+
+    <mat-form-field class="w-full mb-4">
+      <input matInput placeholder="First Name" formControlName="firstName">
+    </mat-form-field>
+
+    <mat-form-field class="w-full mb-4">
+      <input matInput placeholder="Last Name" formControlName="lastName">
+    </mat-form-field>
+
+    <mat-form-field class="w-full mb-4">
+      <input matInput placeholder="Email or Phone Number" formControlName="emailOrPhone">
+    </mat-form-field>
+
+    <mat-form-field class="w-full mb-4">
+      <textarea matInput placeholder="Describe the tech issue" formControlName="issueDescription"></textarea>
+    </mat-form-field>
+
+    <div class="flex justify-center">
+      <button mat-button type="submit" (click)="submitForm()" class="custom-button p-4">Submit</button>
+    </div>
+  </form>
+</div>
+
+<app-footer></app-footer>

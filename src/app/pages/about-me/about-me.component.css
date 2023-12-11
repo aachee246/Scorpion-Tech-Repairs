@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+   max-width: 100%; 
+   height: auto; 
+   max-height: 400px; 
+   border: 2px solid #00CC99;
+}
