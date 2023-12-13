@@ -37,7 +37,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     NavBarComponent,
     HeaderComponent, 
     HomeBannerComponent, 
-    ServicesCardsComponent
+    ServicesCardsComponent, 
     
   ],
   imports: [
@@ -52,6 +52,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatFormFieldModule,
     MatButtonModule,
     ReactiveFormsModule,
+    
 
   ],
   providers: [],
