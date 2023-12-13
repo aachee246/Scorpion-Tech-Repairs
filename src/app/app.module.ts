@@ -24,6 +24,7 @@ import { MatButtonModule } from '@angular/material/button';
 
 
 import { AppRoutingModule } from './app-routing.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -50,6 +51,7 @@ import { AppRoutingModule } from './app-routing.module';
     MatInputModule,
     MatFormFieldModule,
     MatButtonModule,
+    ReactiveFormsModule,
 
   ],
   providers: [],
